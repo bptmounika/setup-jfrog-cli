@@ -39,7 +39,7 @@ jobs:
       - name: Sanity
         run: jf c show local || jfrog rt config show local
 
-      # Check build URL
+      # Check build URL for help
       - name: Check build URL
         uses: wei/curl@master
         with:
